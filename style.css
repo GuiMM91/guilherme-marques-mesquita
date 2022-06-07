@@ -1,0 +1,257 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  min-height: 600px;
+  --main-color: rgb(36, 36, 36);
+  --second-color: rgb(254, 255, 242);
+  --third-color: rgb(208, 221, 219);
+  font-size: 62.5%;
+  font-family: "Press Start 2P", cursive;
+  background-color: var(--second-color);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+body {
+  margin: 0 auto;
+  width: 100%;
+  box-sizing: border-box;
+  padding-bottom: 50px;
+}
+
+.header {
+  padding-block: 4rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: var(--second-color);
+}
+
+#image {
+  width: 350px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 100%;
+  margin-bottom: 5rem;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: var(--second-color);
+  box-sizing: border-box;
+  justify-content: center;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  padding-block: 4rem;
+}
+
+#aboutTitle {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: var(--third-color);
+  padding: 1rem;
+}
+
+#skillsTitle {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: var(--third-color);
+  padding: 1rem;
+}
+
+.skills {
+  padding-block: 4rem;
+  display: flex;
+  text-align: center;
+  justify-content:center;
+  align-items:center;
+  gap: 7rem;
+  background-color: var(--second-color);
+}
+
+.box{
+  width: 15rem;
+  height: 15rem;
+  border-radius: 2%;
+  border: 2px solid #000;
+  text-align: center;
+  padding-block: 0.5rem;
+}
+
+.boxTwo{
+    width: 15rem;
+    height: 15rem;
+    border-radius: 2%;
+    border: 2px solid #000;
+    text-align: center;
+    padding-block: 0.5rem;
+}
+
+#dev {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: var(--second-color);
+  padding-left: 2.4rem;
+  padding-right: 2.4rem;
+  height: 13.8rem;
+}
+
+#design {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: var(--second-color);
+  padding-left: 2.4rem;
+  padding-right: 2.4rem;
+  height: 13.8rem;
+}
+
+#portifolio {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: var(--third-color);
+  padding: 1rem;
+}
+
+.portfolio {
+  padding-block: 4rem;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  text-align: center;
+  background-color: var(--second-color);
+  width: 100%;
+}
+
+#socialMedia {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: var(--third-color);
+  padding: 1rem;
+}
+
+.socialMedia {
+  padding-block: 4rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  background-color: var(--second-color);
+  margin: 0;
+  gap: 2rem;
+}
+
+#linkedIn {
+  width: 7rem;
+  margin-inline: auto;
+}
+
+#gitHub {
+  width: 7rem;
+  margin-inline: auto;
+}
+
+#contact {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 1rem;
+  background-color: var(--third-color);
+}
+
+#whatsApp {
+  width: 7rem;
+  margin-inline: auto;
+}
+
+#email {
+  width: 7rem;
+  margin-inline: auto;
+}
+
+.contato {
+  padding-block: 4rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  background-color: var(--second-color);
+  margin: 0;
+  margin-bottom: 5rem;
+  gap: 2rem;
+}
+
+.button {
+  text-decoration: none;
+}
+
+@media (max-width: 700px) {
+  body {
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    box-sizing: border-box;
+  }
+
+  .portfolio {
+    flex-direction: column;
+    display: flex;
+  }
+
+  img {
+    padding-bottom: 2rem;
+  }
+
+  .socialMedia {
+    flex-direction: row;
+    display: flex;
+  }
+}
+
+@media (max-width: 900px) {
+  body {
+    flex-direction: column;
+    display: flex;
+  }
+
+  .portfolio {
+    flex-direction: column;
+    display: flex;
+  }
+
+  img {
+    padding-bottom: 2rem;
+  }
+
+  .socialMedia {
+    flex-direction: row;
+    display: flex;
+  }
+}
